@@ -7,7 +7,9 @@
 During a quiet weekend, I decided to swap social media scrolling for some hands-on engineering. Instead of playing someone else's game, I built my own. **Legacy Dino** is a high-performance recreation of the classic Chrome Dino game, optimized for the ESP32 and a $64 \times 32$ OLED display.
 
 ---
+
 ![Dino Gameplay](assets/videos/DinoGame.gif)
+
 
 ## 🚀 The Story
 I don’t know much about PC game development, but I do know embedded systems. I asked myself: *Why not build a game with what I already have?* I recreated the logic from scratch, converted a high-fidelity T-Rex into a custom bitmap, and implemented a FreeRTOS-based engine to ensure the smoothest gameplay possible on a micro-display. The result? A satisfying, low-latency retro experience that fits in the palm of your hand.
@@ -41,4 +43,8 @@ I don’t know much about PC game development, but I do know embedded systems. I
    git clone [https://github.com/SaiSundarP/Dino_Game_in_esp32.git](https://github.com/SaiSundarP/Dino_Game_in_esp32.git)
 ---
 ## 📺 Watch the Demo
-<video src="assets/videos/DIno_Game_2026-04-10 230510.mp4" width="100%"></video>
+<div align="center">
+  <video src="assets/videos/Dino_Game.mp4" width="100%" autoplay loop muted playsinline>
+    Your browser does not support the video tag.
+  </video>
+</div>
